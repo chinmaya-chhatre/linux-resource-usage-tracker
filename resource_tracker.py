@@ -50,8 +50,8 @@ def send_email(resource, usage, processes):
         processes (list): A list of top processes contributing to high resource usage.
     """
     # Sender and recipient email addresses
-    sender = "aws.notifications1991@gmail.com"
-    recipient = "aws.notifications.receiver@gmail.com"
+    sender = "aws.xxxx@gmail.com"
+    recipient = "aws.xxxx@gmail.com"
 
     # Email subject
     subject = f"Alert: High {resource} Usage Detected!"
@@ -81,7 +81,7 @@ def send_email(resource, usage, processes):
     try:
         with smtplib.SMTP('smtp.gmail.com', 587) as server:
             server.starttls()
-            server.login(sender, "udqs zjhl ocpg alat")
+            server.login(sender, "udqs xxxx xxxx alat")
             server.send_message(msg)
         print(f"Notification email sent successfully for high {resource} usage.")
     except Exception as e:
