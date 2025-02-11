@@ -31,9 +31,9 @@ pip install -r requirements.txt
 
 ### 3. Update Email Configuration
 Update the `resource_tracker.py` script with your sender email and app password:
-- Replace `aws.notifications1991@gmail.com` with your Gmail address.
-- Replace `udqs zjhl ocpg alat` with your Gmail app password.
-- Replace the recipient email (`aws.notifications.receiver@gmail.com`) with your desired email.
+- Replace `aws.xxxx@gmail.com` with your Gmail address.
+- Replace `udqs xxxx xxxx alat` with your Gmail app password.
+- Replace the recipient email (`aws.xxxx@gmail.com`) with your desired email.
 
 ## Usage
 
